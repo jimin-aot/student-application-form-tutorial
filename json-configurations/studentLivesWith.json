@@ -1,0 +1,109 @@
+{
+  "label": "Student Lives With",
+  "widget": "choicesjs",
+  "tableView": true,
+  "data": {
+    "values": [
+      {
+        "label": "Both Parents",
+        "value": "bothParents"
+      },
+      {
+        "label": "Joint/Shared Guardianship/Custody",
+        "value": "jointSharedGuardianshipCustody"
+      },
+      {
+        "label": "Sole Guardianship/Custody (Mother)",
+        "value": "soleGuardianshipCustodyMother"
+      },
+      {
+        "label": "Sole Guardianship/Custody (Father)",
+        "value": "soleGuardianshipCustodyFather"
+      },
+      {
+        "label": "Grandparent",
+        "value": "grandparent"
+      },
+      {
+        "label": "Guardian",
+        "value": "guardian"
+      },
+      {
+        "label": "Step Parent",
+        "value": "stepParent"
+      },
+      {
+        "label": "Foster Home",
+        "value": "fosterHome"
+      },
+      {
+        "label": "Director (CFCSA)",
+        "value": "directorCfcsa"
+      },
+      {
+        "label": "Aunt",
+        "value": "aunt"
+      },
+      {
+        "label": "Continuing Custody Order",
+        "value": "continuingCustodyOrder"
+      },
+      {
+        "label": "Grandmother",
+        "value": "grandmother"
+      },
+      {
+        "label": "Guardianship Worker",
+        "value": "guardianshipWorker"
+      },
+      {
+        "label": "Home Stay",
+        "value": "homeStay"
+      },
+      {
+        "label": "Other Custody",
+        "value": "otherCustody"
+      },
+      {
+        "label": "Relative",
+        "value": "relative"
+      },
+      {
+        "label": "Self",
+        "value": "self"
+      },
+      {
+        "label": "Sibling",
+        "value": "sibling"
+      },
+      {
+        "label": "Social Worker",
+        "value": "socialWorker"
+      },
+      {
+        "label": "Stepfather",
+        "value": "stepfather"
+      },
+      {
+        "label": "Stepmother",
+        "value": "stepmother"
+      },
+      {
+        "label": "Temporary Custody Order",
+        "value": "temporaryCustodyOrder"
+      },
+      {
+        "label": "Uncle",
+        "value": "uncle"
+      },
+      {
+        "label": "Other",
+        "value": "other"
+      }
+    ]
+  },
+  "key": "studentLivesWith",
+  "type": "select",
+  "input": true,
+  "defaultValue": "bothParents"
+}

@@ -1,0 +1,7 @@
+Step 6 - Review and Submit
+Registration Information
+I am registering for the {{ data.schoolYear }} at the {{ data.educationLevel }}.
+Registering for Grade: {{ data.grade ||  data.grade1 }}
+Student's Country of Birth: {{ data.countryOfBirth }}
+Language Spoken at Home: {{ data.languageSpokenAtHome }}
+Email address for the purpose of this application: {{ data.email }}

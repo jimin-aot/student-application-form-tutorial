@@ -6,7 +6,7 @@ This tutorial guides you through the process of requesting a demo from formsflow
 
 ## Step 1: Requesting a Demo
 
-!(https://github.com/jimin-aot/student-application-form-tutorial/blob/main/01-formsflow-demo-setup-guide/images/demo-request-form.png?raw=true)
+![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/01-formsflow-demo-setup-guide/images/demo-request-form.png?raw=true)
 
 1. **Visit the Demo Request Page**: Start by visiting [formsflow.ai's demo request page](https://formsflow.ai/try-it-now/).
 
@@ -22,7 +22,7 @@ This tutorial guides you through the process of requesting a demo from formsflow
 
 ## Step 2: Receiving Confirmation and Account Details
 
-!(https://github.com/jimin-aot/student-application-form-tutorial/blob/main/01-formsflow-demo-setup-guide/images/email-approval.png?raw=true)
+![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/01-formsflow-demo-setup-guide/images/email-approval.png?raw=true)
 
 After submitting the form, you will receive an email from `DoNotReply <dev@formsflow.ai>` confirming the creation of your sandbox account. The email will include:
 
@@ -37,11 +37,11 @@ After submitting the form, you will receive an email from `DoNotReply <dev@forms
 
 2. **Login to Your Account**: Use the designer account (e.g., `jiminb-designer`) and the temporary password provided in the email to log in.
 
-!(https://github.com/jimin-aot/student-application-form-tutorial/blob/main/01-formsflow-demo-setup-guide/images/first-sign-in.png?raw=true)
+![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/01-formsflow-demo-setup-guide/images/first-sign-in.png?raw=true)
 
 3. **Set Up a New Password**: Upon first login, you'll be prompted to set up a new password. This ensures the security of your account.
 
-!(https://github.com/jimin-aot/student-application-form-tutorial/blob/main/01-formsflow-demo-setup-guide/images/update-password.png?raw=true)
+![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/01-formsflow-demo-setup-guide/images/update-password.png?raw=true)
 
    - Note: The prefix 'jiminb' in the username is based on the 'Application Acronym' you chose during the demo request.
 

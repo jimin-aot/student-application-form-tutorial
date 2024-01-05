@@ -11,6 +11,8 @@ In formsflow.ai, you have a few options to start creating a form:
 - **Upload Form**: Start with an existing template by selecting 'Upload Form'.
 - **Utilize Sample Forms**: Or you could explore and use the built-in sample forms that come with the demo, such as 'Sample Leave Application Form', to understand the structure and design of forms in formsflow.ai.
 
+![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/how-to-start-a-form.png?raw=true)
+
 Choose the method that best suits your familiarity and comfort level with the platform.
 
 For this tutorial, we will use the 'Upload Form' option, starting with a base form.
@@ -24,7 +26,9 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
 
 1. **Navigate to the Form Upload Section**: In the formsflow.ai dashboard, click on 'Upload Form'.
 2. **Upload the Form**: Click 'Upload' and select the downloaded `.json` file.
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/open-a-file.png?raw=true)
 3. **View the Form**: Once uploaded, the form will appear in the list. Select 'View Details' for more options.
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/form-uploaded-in-the-list.png?raw=true)
 
 ## Step 3: Editing the Form
 
@@ -32,15 +36,7 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
 2. **Set Metadata**:
    - At the top of the form, you'll find fields to enter a 'Title' and 'Description'.
    - You can either set these for the first time or make changes if they already exist. This metadata helps in identifying and describing your form.
-
-## Step 3: Editing the Form
-
-1. **Edit the Form**: Locate and click 'Edit Form' in the form details.
-
-2. **Set or Change Metadata**:
-
-   - At the top of the form, enter or modify the 'Title' and 'Description'.
-
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/metadata.png?raw=true)
 3. **Form vs. Wizard Layouts**:
    - Find the 'Display As' radio buttons with options 'Form' and 'Wizard'.
    - Toggle between these options to observe the changes.
@@ -51,11 +47,8 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
 ## Step 4: Configuring the Layout
 
 1. **Navigate to 'Step 1' Page**:
-
    - Begin editing by going to the 'Step 1' page, accessible via the breadcrumb navigation.
-
 2. **Adding Columns to the Layout**:
-
    - From the 'Layout' group in the fields menu on the left, select the 'Columns' component.
    - Drag the 'Columns' component towards the 'Step 1' page. As you drag the component, look for a visual indication of where it can be placed:
      - A blue highlight will appear, indicating a valid location where you can drop the component. This is a sign that it's safe to release the component there.
@@ -68,7 +61,7 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
    - As you progress through this tutorial and explore various components, you will become more familiar with the specific settings each one offers.
 
 4. **Configuring Column Properties**:
-
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/columns-component-setting.png?raw=true)
    - The default size for columns is 'md' (medium), which is often suitable due to its responsiveness on different screen sizes.
    - Set up two columns for our layout: one for the step title section and another for the form section, with widths of 4 and 8, respectively.
 
@@ -82,6 +75,7 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
 
 6. **Adding a Content Component for the Title**:
 
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/drop-content-component.png?raw=true)
    - In the left column of the layout, find the 'Content' component within the 'Layout' group, located above the 'Columns' component you used earlier.
    - Drag and drop the 'Content' component into the left column.
    - You will see a different settings panel compared to the Columns component.

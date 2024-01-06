@@ -19,7 +19,8 @@ Enhance formsflow.ai with Google's address autocomplete. This tutorial shows you
 2. **Enable the Places API**:
 
    - In the Google Cloud Console, use the hamburger menu to access 'APIs & Services'.
-   - Click 'ENABLE APIS AND SERVICES' and enable 'Places API'.
+   - Click on 'ENABLE APIS AND SERVICES'.
+   - Search for 'Places API' and enable it for your project.
 
 3. **Obtain Your API Key**:
    - A prompt will display your new API key, or find it under 'Credentials'.
@@ -29,6 +30,10 @@ Enhance formsflow.ai with Google's address autocomplete. This tutorial shows you
 
 - Add the API key to formsflow.ai's address field settings for autocomplete.
 - Further integration details will follow in another tutorial.
+
+## Note
+
+After completing this tutorial, if you decide not to use the Google API or formsflow.ai, remember to disable billing and delete the API key to avoid any charges. Regular maintenance of your cloud resources is a good practice to ensure you're not paying for services you no longer need.
 
 ## API Key Management
 

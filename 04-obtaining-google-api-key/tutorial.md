@@ -16,6 +16,7 @@ Enhance formsflow.ai with Google's address autocomplete. This tutorial shows you
    - Click 'Start Free' to sign up for a new account.
    - Follow the prompts to set up billing, which is required to use Google APIs.
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/billing-set-up-1.png?raw=true)
+   - Initially, 'My First Project' will be created for you.
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/check-project-name.png?raw=true)
 
 2. **Enable the Places API**:

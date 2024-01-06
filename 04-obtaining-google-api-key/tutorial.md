@@ -37,6 +37,7 @@ Enhance formsflow.ai with Google's address autocomplete. This tutorial shows you
 
    - A prompt will display your new API key, or find it under 'Credentials'.
    - Click 'SHOW KEY' for the Maps API Key and copy it.
+     
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/copy-api-key.png?raw=true)
 
 ## Using the API Key
@@ -44,12 +45,17 @@ Enhance formsflow.ai with Google's address autocomplete. This tutorial shows you
 - Add the API key to formsflow.ai's address field settings for autocomplete.
 - Further integration details will follow in another tutorial.
 
+## Note
+
+After completing this tutorial, if you decide not to use the Google API or formsflow.ai, remember to disable billing and delete the API key to avoid any charges. Regular maintenance of your cloud resources is a good practice to ensure you're not paying for services you no longer need.
+
 ## API Key Management
 
 - Delete unused API keys for security:
   - Go to 'APIs & Services' > 'Credentials'.
   - Locate 'Maps API Key', click the three dots for actions, and choose 'Delete key'.
-![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/delete-api-key.png?raw=true)
+  
+  ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/delete-api-key.png?raw=true)
 
 ## Billing Management
 
@@ -58,11 +64,13 @@ Enhance formsflow.ai with Google's address autocomplete. This tutorial shows you
    - To manage your billing details or to disable billing, locate the billing icon at the top right of the Google Cloud Console page, next to your profile picture.
    - Click on the three dots to open the menu.
    - Select 'Billing account management' to review your billing information and manage your account settings.
+   
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/billing-menu.png?raw=true)
   
 2. **Stop Billing**:
    - Find 'My First Project' under 'Projects linked to this billing account'.
    - Use the actions menu to disable billing.
+   
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/disable-billing.png?raw=true)
 
 ## Conclusion

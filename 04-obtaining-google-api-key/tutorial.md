@@ -15,19 +15,25 @@ Enhance formsflow.ai with Google's address autocomplete. This tutorial shows you
 
    - Click 'Start Free' to sign up for a new account.
    - Follow the prompts to set up billing, which is required to use Google APIs.
+     
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/billing-set-up-1.png?raw=true)
+
    - Initially, 'My First Project' will be created for you.
+     
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/check-project-name.png?raw=true)
 
-2. **Enable the Places API**:
+3. **Enable the Places API**:
 
    - In the Google Cloud Console, use the hamburger menu to access 'APIs & Services'.
    - Click on 'ENABLE APIS AND SERVICES'.
+     
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/enable-api.png?raw=true)
+
    - Search for 'Places API' and enable it for your project.
+     
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/search-api.png?raw=true)
 
-3. **Obtain Your API Key**:
+5. **Obtain Your API Key**:
 
    - A prompt will display your new API key, or find it under 'Credentials'.
    - Click 'SHOW KEY' for the Maps API Key and copy it.

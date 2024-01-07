@@ -18,6 +18,12 @@ Enhance formsflow.ai with Google's address autocomplete. This tutorial shows you
 
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/billing-set-up-1.png?raw=true)
 
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/billing-set-up-2.png?raw=true)
+
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/billing-set-up-3.png?raw=true)
+
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/4-questions.png?raw=true)
+
    - After completing the billing setup, Google Cloud Console will automatically create a default project for you, typically named 'My First Project'. Proceed with this project to generate your API key.
 
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/check-project-name.png?raw=true)
@@ -25,7 +31,7 @@ Enhance formsflow.ai with Google's address autocomplete. This tutorial shows you
 2. **Enable the Places API**:
 
    - In the Google Cloud Console, use the hamburger menu to access 'APIs & Services'.
-   - Click on 'ENABLE APIS AND SERVICES'.
+   - Click on 'Enabled APIs & Services'.
 
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/enable-api.png?raw=true)
 
@@ -33,10 +39,10 @@ Enhance formsflow.ai with Google's address autocomplete. This tutorial shows you
 
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/search-api.png?raw=true)
 
-3. **Obtain Your API Key**:
+4. **Obtain Your API Key**:
 
-   - In the 'API Keys' section under 'Keys & Credentials', you'll find the entry for the 'Maps API Key'.
-   - To view your API key, click on 'SHOW KEY', then copy it for subsequent use in formsflow.ai.
+   - A prompt will display your new API key, or find it under 'Credentials'.
+   - Click 'SHOW KEY' for the Maps API Key and copy it for subsequent use in formsflow.ai.
    - The actual API key is not shown in the capture photo for security purposes.
 
    Remember, never share your API keys publicly or in insecure environments to prevent unauthorized use and potential security breaches.

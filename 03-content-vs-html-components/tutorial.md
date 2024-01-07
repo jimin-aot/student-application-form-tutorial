@@ -9,6 +9,9 @@ Enhance your formsflow.ai experience with advanced HTML customization. If you're
 Advanced styles and features require the HTML component:
 
 1. **Switching Components**: In 'Step 1', remove the existing Content component by clicking the 'X' icon in the control icons. Drag an 'HTML Element' from the 'Layout' group to the same spot.
+
+![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/03-content-vs-html-components/images/remove-content-component.png?raw=true)
+
 2. **Adding HTML Content**: Enter your HTML to customize the form:
 
    ```html
@@ -19,9 +22,13 @@ Advanced styles and features require the HTML component:
 
    Save your changes once done.
 
+![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/03-content-vs-html-components/images/paste-content.png?raw=true)
+
 ## HTML Capabilities Overview
 
 In the 'Introduction' page, the HTML element is utilized for rich content. For code examples, see [this GitHub file](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/00-final-version/html-element-data/student-application-introduction.html).
+
+![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/03-content-vs-html-components/images/edit-html-element.png?raw=true)
 
 HTML enables you to:
 

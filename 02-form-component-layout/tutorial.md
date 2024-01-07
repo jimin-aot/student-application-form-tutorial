@@ -26,8 +26,8 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
 
 1. **Navigate to the Form Upload Section**: In the formsflow.ai dashboard, click on 'Upload Form'.
 2. **Upload the Form**: Click 'Upload' and select the downloaded `.json` file.
-   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/open-a-file.png?raw=true)
 3. **View the Form**: Once uploaded, the form will appear in the list. Select 'View Details' for more options.
+   
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/form-uploaded-in-the-list.png?raw=true)
 
 ## Step 3: Editing the Form
@@ -36,13 +36,14 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
 2. **Set Metadata**:
    - At the top of the form, you'll find fields to enter a 'Title' and 'Description'.
    - You can either set these for the first time or make changes if they already exist. This metadata helps in identifying and describing your form.
-     ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/metadata.png?raw=true)
 3. **Form vs. Wizard Layouts**:
    - Find the 'Display As' radio buttons with options 'Form' and 'Wizard'.
    - Toggle between these options to observe the changes.
    - In the 'Form' type, notice how the breadcrumb navigation is removed and all panels are displayed on a single page.
    - When switching to 'Wizard', the layout changes to organize the form into multiple steps or panels. This guides the user through a sequential form filling process.
    - This feature is important to understand as we will later convert the form type to modify the page order. This aspect will be revisited in the wizard tutorial.
+
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/metadata.png?raw=true)
 
 ## Step 4: Configuring the Layout
 
@@ -55,6 +56,8 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
      - A blue highlight will appear, indicating a valid location where you can drop the component. This is a sign that it's safe to release the component there.
      - If the blue highlight does not appear, it means the component cannot be placed in that area. Adjust your positioning until the blue highlight shows up, signifying a valid drop zone.
 
+![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/add-columns-component.png?raw=true)
+
 3. **Understanding Component Settings**:
 
    - The Columns component, like many others in formsflow.ai, has several specific settings tabs such as 'Display', 'API', 'Conditional', 'Logic', and 'Layout'.
@@ -62,10 +65,11 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
    - As you progress through this tutorial and explore various components, you will become more familiar with the specific settings each one offers.
 
 4. **Configuring Column Properties**:
-   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/columns-component-setting.png?raw=true)
 
    - The default size for columns is 'md' (medium), which is often suitable due to its responsiveness on different screen sizes.
    - Set up two columns for our layout: one for the step title section and another for the form section, with widths of 4 and 8, respectively.
+     
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/columns-component-setting.png?raw=true)
 
 5. **Adjusting the Label and API Property Name**:
 
@@ -74,6 +78,8 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
    - This Property Name is key for accessing this component from other parts of the form.
    - The role of Property Names in form control and interaction, especially in conditional logic and component data management (like default values and calculated values), will be covered in future tutorials.
    - After making these adjustments, click the save button to apply the changes and view the two-column layout on the page.
+
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/property-name.png?raw=true)
 
 6. **Adding a Content Component for the Title**:
 
@@ -94,12 +100,16 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
 
    - Highlight the text 'Step 1 - Find Catchment School' and change its style from 'Paragraph' to 'Heading 2' for better emphasis.
 
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/paragraph-to-heading.png?raw=true)  
+
 8. **Adding a Button to the Right Section**:
    - For the form section on the right, add a button component. Go to the 'Basic' group at the top and select 'Button'.
    - Change the label of the button to 'Find Your Catchment School'.
    - Go to the theme settings and select 'Secondary'. Notice how the preview shows the color change from blue to gray.
    - Custom logic for the button will be added in a later tutorial.
    - Click save to apply the changes.
+   
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/change-theme.png?raw=true)
 
 ## Step 5: Finalizing the Form
 

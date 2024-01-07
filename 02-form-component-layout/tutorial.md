@@ -36,7 +36,7 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
 2. **Set Metadata**:
    - At the top of the form, you'll find fields to enter a 'Title' and 'Description'.
    - You can either set these for the first time or make changes if they already exist. This metadata helps in identifying and describing your form.
-   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/metadata.png?raw=true)
+     ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/metadata.png?raw=true)
 3. **Form vs. Wizard Layouts**:
    - Find the 'Display As' radio buttons with options 'Form' and 'Wizard'.
    - Toggle between these options to observe the changes.
@@ -49,6 +49,7 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
 1. **Navigate to 'Step 1' Page**:
    - Begin editing by going to the 'Step 1' page, accessible via the breadcrumb navigation.
 2. **Adding Columns to the Layout**:
+
    - From the 'Layout' group in the fields menu on the left, select the 'Columns' component.
    - Drag the 'Columns' component towards the 'Step 1' page. As you drag the component, look for a visual indication of where it can be placed:
      - A blue highlight will appear, indicating a valid location where you can drop the component. This is a sign that it's safe to release the component there.
@@ -62,6 +63,7 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
 
 4. **Configuring Column Properties**:
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/columns-component-setting.png?raw=true)
+
    - The default size for columns is 'md' (medium), which is often suitable due to its responsiveness on different screen sizes.
    - Set up two columns for our layout: one for the step title section and another for the form section, with widths of 4 and 8, respectively.
 
@@ -76,6 +78,7 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
 6. **Adding a Content Component for the Title**:
 
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/drop-content-component.png?raw=true)
+
    - In the left column of the layout, find the 'Content' component within the 'Layout' group, located above the 'Columns' component you used earlier.
    - Drag and drop the 'Content' component into the left column.
    - You will see a different settings panel compared to the Columns component.
@@ -89,11 +92,13 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
      * Indicates required question
      ```
 
-   - Highlight the text 'Step 1 - Find Catchment School' and change its style from paragraph to heading for better emphasis.
+   - Highlight the text 'Step 1 - Find Catchment School' and change its style from 'Paragraph' to 'Heading 2' for better emphasis.
 
 8. **Adding a Button to the Right Section**:
    - For the form section on the right, add a button component. Go to the 'Basic' group at the top and select 'Button'.
-   - Change the label of the button to 'Find Your Catchment School'. Custom logic for the button will be added in a later tutorial.
+   - Change the label of the button to 'Find Your Catchment School'.
+   - Go to the theme settings and select 'Secondary'. Notice how the preview shows the color change from blue to gray.
+   - Custom logic for the button will be added in a later tutorial.
    - Click save to apply the changes.
 
 ## Step 5: Finalizing the Form

@@ -83,11 +83,11 @@ For this tutorial, we will use the 'Upload Form' option, starting with a base fo
 
 6. **Adding a Content Component for the Title**:
 
-   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/drop-content-component.png?raw=true)
-
    - In the left column of the layout, find the 'Content' component within the 'Layout' group, located above the 'Columns' component you used earlier.
    - Drag and drop the 'Content' component into the left column.
    - You will see a different settings panel compared to the Columns component.
+
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/02-form-component-layout/images/drop-content-component.png?raw=true)
 
 7. **Configuring the Content Component**:
 

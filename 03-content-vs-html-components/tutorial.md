@@ -10,11 +10,13 @@ Advanced styles and features require the HTML component:
 
 1. **Switching Components**: In 'Step 1', remove the existing Content component by clicking the 'X' icon in the control icons. Drag an 'HTML Element' from the 'Layout' group to the same spot.
 2. **Adding HTML Content**: Enter your HTML to customize the form:
+
    ```html
    <h2>Step 1 - Find Catchment School</h2>
    <p style="color: red;">* Indicates required question</p>
    <p>Enter Student's Street Address.</p>
    ```
+
    Save your changes once done.
 
 ## HTML Capabilities Overview

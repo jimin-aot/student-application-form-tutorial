@@ -39,7 +39,7 @@ Enhance formsflow.ai with Google's address autocomplete. This tutorial shows you
 
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/search-api.png?raw=true)
 
-4. **Obtain Your API Key**:
+3. **Obtain Your API Key**:
 
    - A prompt will display your new API key, or find it under 'Credentials'.
    - Click 'SHOW KEY' for the Maps API Key and copy it for subsequent use in formsflow.ai.
@@ -49,10 +49,29 @@ Enhance formsflow.ai with Google's address autocomplete. This tutorial shows you
 
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/copy-api-key.png?raw=true)
 
+4. **API Key Restrictions** (optional):
+   - If prompted to 'Protect your API key', select 'HTTP referrers (web sites)' and enter your formsflow.ai application URL, like 'https://trynow-formsflow-web.aot-technologies.com/tenant/jiminb/*'.
+   - If skipped, you can later go to the API key's detail page to set restrictions.
+
 ## Using the API Key
 
 - Add the API key to formsflow.ai's address field settings for autocomplete.
 - Further integration details will follow in another tutorial.
+
+## Troubleshooting
+
+If you encounter errors after setting up your API key, follow these steps to ensure the Places API is properly enabled:
+
+1. **Verify API Activation**:
+   - Navigate to 'Enabled APIs & Services' in the Google Cloud Console.
+   - Click on '+ ENABLE APIS AND SERVICES'.
+   - Search for 'Places API' to confirm it is listed as enabled.
+
+The following screenshot verifies that the Places API is active and properly configured:
+
+![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/api-enabled-confirmation.png?raw=true)
+
+Ensuring the API is enabled is a critical step for the address autocomplete feature to function correctly in formsflow.ai.
 
 ## Note
 

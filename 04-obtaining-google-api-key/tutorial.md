@@ -51,7 +51,12 @@ Enhance formsflow.ai with Google's address autocomplete. This tutorial shows you
 
 4. **API Key Restrictions** (optional):
    - If prompted to 'Protect your API key', select 'HTTP referrers (web sites)' and enter your formsflow.ai application URL, like 'https://trynow-formsflow-web.aot-technologies.com/tenant/jiminb/*'.
+
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/set-an-application-restriction-1.png?raw=true)
+
    - If skipped, you can later go to the API key's detail page to set restrictions.
+  
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/set-an-application-restriction-2.png?raw=true)
 
 ## Using the API Key
 
@@ -67,9 +72,11 @@ If you encounter errors after setting up your API key, follow these steps to ens
    - Click on '+ ENABLE APIS AND SERVICES'.
    - Search for 'Places API' to confirm it is listed as enabled.
 
+   ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/api-enabled-confirmation-1.png?raw=true)
+
 The following screenshot verifies that the Places API is active and properly configured:
 
-![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/api-enabled-confirmation.png?raw=true)
+![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/04-obtaining-google-api-key/images/api-enabled-confirmation-2.png?raw=true)
 
 Ensuring the API is enabled is a critical step for the address autocomplete feature to function correctly in formsflow.ai.
 

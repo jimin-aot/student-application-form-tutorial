@@ -3,9 +3,11 @@ async function startEmailVerificationProcess() {
 
   console.log('Send PIN clicked');
   const processDefinitionKey = 'vsb-email-verification';
-  const tenantId = 'jiminb';
   const bpmApiUrl = localStorage.getItem('bpmApiUrl');
   const authToken = localStorage.getItem('authToken');
+
+  const userDetails = JSON.parse(localStorage.getItem('USER_DETAILS'));
+  const tenantId = userDetails ? userDetails.tenantKey : null;
 
   if (!bpmApiUrl) {
     console.error('BPM API URL not found in localStorage.');
@@ -31,7 +33,7 @@ async function startEmailVerificationProcess() {
           email: { value: data.email },
           applicationId: { value: data.applicationId || 25 }, // fallback to random number if data.applicationId is not available
           formName: { value: 'jmbi-studentapplication' },
-          tenantKey: { value: 'jmbi' },
+          tenantKey: { value: tenantId },
         },
       }),
     });

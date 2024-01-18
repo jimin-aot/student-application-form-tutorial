@@ -10,7 +10,7 @@ This tutorial will guide you through adding an address component to your form, e
 
    - From the 'Advanced' group, select the 'Address' component.
    - Drag and drop it above the 'Find Your Catchment School' button we previously created.
-     
+
      ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/05-address-component/images/drop-address-component.png?raw=true)
 
 2. **Configure the Address Component**:
@@ -18,7 +18,7 @@ This tutorial will guide you through adding an address component to your form, e
    - The settings for the Address component will open.
    - Change the label to 'Catchment School Address'.
    - Set the placeholder to: "Enter student's home address to find your catchment school".
-  
+
      ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/05-address-component/images/address-component-label.png?raw=true)
 
 3. **Set Up Google Maps Provider**:
@@ -37,7 +37,7 @@ This tutorial will guide you through adding an address component to your form, e
        }
      }
      ```
-     
+
      ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/05-address-component/images/google-autocomplete-setting.png?raw=true)
 
 5. **Require Address Field**:
@@ -55,11 +55,11 @@ This tutorial will guide you through adding an address component to your form, e
 1. **Navigate Through Form Setup**:
 
    - Above the form, find the "Form Setup Progress Bar" with the steps: 'Design Form', 'Associate this form with a workflow?', and 'Preview and Confirm'.
-  
+
      ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/05-address-component/images/save-form.png?raw=true)
-     
+
    - Click 'Next' twice to bypass 'Associate this form with a workflow?' (which we will cover in a later tutorial).
-     
+
      ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/05-address-component/images/next-1.png?raw=true)
 
      ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/05-address-component/images/next-2.png?raw=true)
@@ -70,8 +70,9 @@ This tutorial will guide you through adding an address component to your form, e
    - Click 'Save'.
 
 3. **Confirm Publication**:
+
    - The form status should now display as 'Published' in your forms list.
-  
+
      ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/05-address-component/images/publish-for-clients.png?raw=true)
 
 ## Submitting a New Entry
@@ -79,22 +80,26 @@ This tutorial will guide you through adding an address component to your form, e
 1. **Start a New Form Submission**:
 
    - Click the three dots next to 'View Details' and select 'Submit New' to initiate a new from entry.
-  
+
      ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/05-address-component/images/submit-new.png?raw=true)
 
 2. **Navigate to the Address Component**:
 
    - Once the form preview appears, click the 'Edit Form' button.
    - Proceed to the 'Step 1' page where the address component is located.
-  
+
      ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/05-address-component/images/edit-form-button.png?raw=true)
-     
+
 3. **Testing the Autocomplete Feature**:
 
    - In the 'Catchment School Address' field, start typing an address within Vancouver to search for catchment schools in that area.
    - If you're unfamiliar with Vancouver addresses, use "453 W 12th Ave, Vancouver, BC V5Y 1V4" as an example. This address is for Vancouver City Hall, a well-known location.
    - As you type, observe how Google Maps autocomplete suggests addresses. Select the address from the autocomplete suggestions to complete the field.
-  
+
    ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/05-address-component/images/text-address-autocomplete.png?raw=true)
 
 Congratulations! You've now experienced the Google Maps autocomplete feature in action, using a specific example within Vancouver, confirming its functionality for end-users.
+
+## Note on API Key
+
+In this tutorial, and within the accompanying `form-complete.json` file, a placeholder API key is used for demonstration purposes:

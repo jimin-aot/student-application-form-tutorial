@@ -84,8 +84,11 @@ This tutorial will guide you through adding an address component to your form, e
 
 2. **Navigate to the Address Component**:
 
-   - Preview the form and proceed to the 'Step 1' page where the address component is located.
-
+   - Once the form preview appears, click the 'Edit Form' button.
+   - Proceed to the 'Step 1' page where the address component is located.
+  
+     ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/05-address-component/images/edit-form-button.png?raw=true)
+     
 3. **Testing the Autocomplete Feature**:
 
    - In the 'Catchment School Address' field, start typing an address within Vancouver to search for catchment schools in that area.

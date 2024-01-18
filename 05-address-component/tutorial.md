@@ -18,6 +18,8 @@ This tutorial will guide you through adding an address component to your form, e
    - The settings for the Address component will open.
    - Change the label to 'Catchment School Address'.
    - Set the placeholder to: "Enter student's home address to find your catchment school".
+  
+     ![](https://github.com/jimin-aot/student-application-form-tutorial/blob/main/05-address-component/images/address-component-label.png?raw=true)
 
 3. **Set Up Google Maps Provider**:
 
